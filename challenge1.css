@@ -1,0 +1,47 @@
+.article {
+    border: 5px solid #000;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
+.product-shipping {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.more-information a {
+    color: #000;
+}
+
+.more-information a:hover {
+    text-decoration: none;
+}
+
+.product-name {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.product-details {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
