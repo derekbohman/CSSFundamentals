@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .article {
     border: 5px solid #000;
+    width: 825px;
+    margin: 50px auto;
 }
 
 .product-price {
@@ -9,6 +16,7 @@
 .product-shipping {
     font-size: 12px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .more-information a {
@@ -23,12 +31,23 @@
     text-transform: uppercase;
     text-align: center;
     background-color: #f7f7f7;
+    padding: 15px;
 }
 
 .product-details {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.unordered-list {
+    margin-left: 20px;
+}
+
+.unordered-list li {
+    margin-bottom: 10px;
 }
 
 .button {
@@ -36,6 +55,8 @@
     color: #fff;
     text-transform: uppercase;
     border: none;
+    width: 100%;
+    padding: 15px;
 }
 
 .button:hover {
@@ -44,4 +65,5 @@
     text-transform: uppercase;
     border: none;
     cursor: pointer;
+    border-top: 4px solid black;
 }
