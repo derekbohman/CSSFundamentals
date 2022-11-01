@@ -11,8 +11,13 @@ h1 a {
     text-decoration: none;
 }
 
+.nav-bar a:first-child {
+    margin-left: 5px;
+}
+
 .nav-bar a {
     text-decoration: none;
+    margin: 20px;
 }
 
 a, a:visited {
@@ -26,6 +31,10 @@ a:hover {
 .container {
     width: 700px;
     margin: 0 auto;
+}
+
+.body {
+    position: relative;
 }
 
 #author {
@@ -49,4 +58,13 @@ a:hover {
 aside {
     border-top: 5px solid #000000;
     border-bottom: 5px solid #000000;
+}
+
+.like-button {
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
